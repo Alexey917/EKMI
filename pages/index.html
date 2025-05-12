@@ -28,12 +28,9 @@
         <li><a href="" class="header__link header__link_phone">+38 (099)-638-45-37</a></li>
         <li>
           <select name="" id="" class="header__option">
-            <option value="RU">RU</option>
-            <option value="UA">UA</option>
-            <option value="EN">EN</option>
-            <!-- <svg class="header_row-icon">
-              <use href="../assets/img/sprite.svg#select"></use>
-            </svg> -->
+            <option value="RU" class="header__option_item">RU</option>
+            <option value="UA" class="header__option_item">UA</option>
+            <option value="EN" class="header__option_item">EN</option>
           </select>
         </li>
       </ul>
@@ -41,10 +38,15 @@
 
     <div class="header__wrapper container">
       <div class="header__slider-wrapper">
+        <div class="pagination">
+          <button class="header__pagination-btn header__pagination-btn_active" id="btn-1"></button>
+          <button class="header__pagination-btn" id="btn-2"></button>
+          <button class="header__pagination-btn" id="btn-3"></button>
+        </div>
         <picture class="header__slider">
-          <source srcset="../assets/img/h_slider1.webp" type="image/webp">
+          <source srcset="../assets/img/h_slider1.webp" type="image/webp" class="header__slider_animation">
           <source srcset="../assets/img/h_slider1.png" type="image/png">
-          <img src="../assets/img/h_slider1.png" alt="h_slider1">
+          <img src="../assets/img/h_slider1.png" alt="h_slider1" class="header__slider_animation">
         </picture>
         <p class="header__text-slider">Основано в 1993 году</p>
       </div>
@@ -56,5 +58,8 @@
       </div>
     </div>
   </header>
+
+  <script src="../js/headerSlider.js"></script>
+  <script src="../js/pseudoHover.js"></script>
 </body>
 </html>
