@@ -35,8 +35,8 @@
   font-style: normal;
   font-size: 13px;
   line-height: 150%;
-  text-decoration: none;
   color: #343434;
+  text-decoration: none;
 }
 
 .header__link_phone {
@@ -44,8 +44,9 @@
   font-weight: 600;
   font-style: normal;
   font-size: 13px;
-  text-decoration: none;
+  line-height: 150%;
   color: #343434;
+  text-decoration: none;
 }
 
 .header__option {
@@ -58,8 +59,9 @@
   font-weight: 600;
   font-style: normal;
   font-size: 13px;
-  text-decoration: none;
+  line-height: 150%;
   color: rgba(52, 52, 52, 0.7);
+  text-decoration: none;
   background-color: #fff;
   border: none;
   cursor: pointer;
@@ -75,14 +77,14 @@
 }
 
 .header__text-slider {
-  margin-top: 0;
-  margin-bottom: 35px;
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 20px;
   line-height: 127.5%;
   color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 35px;
 }
 
 .header__slider-wrapper {
@@ -92,8 +94,8 @@
   margin-right: calc(50% - 585px);
   display: flex;
   align-items: flex-end;
-  flex-direction: column-reverse;
   justify-content: space-between;
+  flex-direction: column-reverse;
 }
 
 .header__slider {
